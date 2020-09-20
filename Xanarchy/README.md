@@ -1,7 +1,7 @@
-# DiscordNitro
+# Xanarchy Nitro Bot
 This is a bot to get discord Nitro Free, you only need patience
 
-Steps:
+# Steps:
 
 First, download the essential:
 Node.js and a editor like Notepad++
@@ -16,4 +16,4 @@ now type node bot.js
 
 go to any channel of your server and type -help
 
-Enjoy!
+**Enjoy!**
