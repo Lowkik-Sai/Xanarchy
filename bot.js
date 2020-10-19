@@ -4,7 +4,6 @@ const generator = require('generate-password');
 require("./server.js");
 
 client.on('ready', () => {
- client.user.setActivity("Making bullshit.");
  console.log("Bot ("+client.user.tag+") Ready!");
  });
  
