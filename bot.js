@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const generator = require('generate-password');
+require("./server.js");
 
 client.on('ready', () => {
  client.user.setActivity("Making bullshit.");
