@@ -12,7 +12,7 @@ client.on("message", async message => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-  if(command === "help"){
+  if(command === "startgen"){
 	var i = 0;
     while (i<1000) { //Number of messages
     var password = generator.generate({
@@ -25,4 +25,4 @@ client.on("message", async message => {
   }
 })
 
-client.login('NzU3Mjg3MTEwNzI5NTMxNTIy.X2eMlA.HyJtlBZSycHMXFLWkCuZGsKBIro');
+client.login(process.env.BOT_TOKEN);
